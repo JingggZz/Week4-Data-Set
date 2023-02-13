@@ -1,10 +1,24 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  background-color: rgb(242, 200, 103);
 }
 canvas {
   display: block;
+  margin:auto;
 }
 main{
   width:500px;
+}
+
+nav{
+  padding:10px 3%;
+}
+
+a{
+  color:rgb(99, 18, 22);
+}
+
+header{
+  font-size: 20px;
+  color:rgb(99, 18, 22);
+  text-align: center;
 }
