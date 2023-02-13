@@ -24,7 +24,7 @@ function setup() {
 }
 
 function draw() {
-  background(200);
+  background(99, 18, 22);
 
   if(loadbar < jsonDocuments.length){
 
@@ -34,11 +34,13 @@ function draw() {
 
   }else{
 
-    let fontSize = map(displayText.length,0,200,30,20,true);
+    let fontSize = map(displayText.length, 100, 500, 30, 15,true);
     textSize(fontSize);
     textWrap(WORD);
     textAlign(CENTER);
-    text(displayText,50, 50, 400);
+
+    fill(250, 192, 61);
+    text(displayText, 50, 50, 400);
 
   }
 
