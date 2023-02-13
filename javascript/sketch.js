@@ -16,7 +16,7 @@ let phrases = []; // for cut up generator
 
 
 function setup() {
-  canvas = createCanvas(800, 500);
+  canvas = createCanvas(800, 400);
   canvas.parent("sketch-container"); //move our canvas inside this HTML element
   canvas.mousePressed(handleCanvasPressed);
 
@@ -29,7 +29,7 @@ function draw() {
   stroke(242, 200, 103)
   strokeWeight(2);
   noFill();
-  rect(50, 50, 700, 400);
+  rect(50, 50, 700, 300);
 
   if(loadbar < jsonDocuments.length){
 
@@ -39,7 +39,7 @@ function draw() {
 
   }else{
 
-    let fontSize = map(displayText.length, 100, 500, 35, 20,true);
+    let fontSize = map(displayText.length, 100, 500, 30, 15,true);
     textSize(fontSize);
     textWrap(WORD);
     textAlign(CENTER);
