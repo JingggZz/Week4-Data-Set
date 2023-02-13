@@ -2,11 +2,13 @@ html, body {
   background-color: rgb(242, 200, 103);
 }
 canvas {
-  display: block;
-  margin:auto;
+  display:flex;
 }
 main{
-  width:500px;
+  margin:auto;
+  width:1000px;
+
+  color: rgb(127, 33, 38);
 }
 
 nav{
@@ -14,11 +16,11 @@ nav{
 }
 
 a{
-  color:rgb(99, 18, 22);
+  color:rgb(127, 33, 38);
 }
 
 header{
   font-size: 20px;
-  color:rgb(99, 18, 22);
+  color:rgb(127, 33, 38);
   text-align: center;
 }
