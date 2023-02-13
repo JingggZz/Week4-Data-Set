@@ -1,4 +1,5 @@
 html, body {
+  margin: auto;
   background-color: rgb(242, 200, 103);
 }
 canvas {
